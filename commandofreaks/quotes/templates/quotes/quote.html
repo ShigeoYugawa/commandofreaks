@@ -1,0 +1,21 @@
+<!-- quotes/templates/quotes/quote.html -->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CommandoFreaks</title>
+</head>
+<body>
+    <h1>CommandoFreaks - 名セリフジェネレーター</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">名セリフを表示</button>
+    </form>
+
+    {% if quote %}
+        <p><strong>{{ quote }}</strong></p>
+    {% endif %}
+</body>
+</html>
