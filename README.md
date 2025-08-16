@@ -43,6 +43,11 @@ python manage.py test quotes
 mypy quotes
 ```
 
+## 動作イメージ
+
+![Image](https://github.com/user-attachments/assets/9bccfca3-4c25-4533-8067-dbeb9f9d6b12)
+
+
 ## 学習ポイント
 
 - Django のビュー（FBV）とテンプレート連携
